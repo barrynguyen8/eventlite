@@ -2,24 +2,24 @@ class EventsController < ApplicationController
     def index
         @events = [
           {
-            title: "London Retail Expo",
-            datetime: "Monday 21 Oct, 2019",
-            location: "London Excel Centre"
+            title: "7 Myths About Preventing Lower Back Pain",
+            datetime: "Thursday 1 Jul, 2021",
+            location: "Acland Street Physiotherapy"
           },
           {
-            title: "Enterprise Sales Training Workshop",
-            datetime: "Tuesday 22 Oct, 2019",
-            location: "Expert Sales Company Headquarters"
+            title: "Reversing Diabetes Type II through Diet",
+            datetime: "Tuesday 15 Aug, 2021",
+            location: "Live Webinar"
           },
           {
-            title: "Ruby Hack Night",
-            datetime: "Friday 25 Oct, 2019",
-            location: "Learnetto Headquarters"
+            title: "Evidence Based Techniques on Improving Sleep Quality",
+            datetime: "Friday 25 Oct, 2021",
+            location: "Pre-recorded Webinar"
           },
           {
-            title: "Beginners Salsa dance meetup",
-            datetime: "Saturday 26 Oct, 2019",
-            location: "Bar Salsa"
+            title: "7 Less Known Benefits of practicing Mindfulness",
+            datetime: "Saturday 26 Dec, 2021",
+            location: "Austin Hospital"
           }
         ]
     end
