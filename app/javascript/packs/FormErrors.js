@@ -14,7 +14,7 @@ const FormErrors = (props) =>
     })}
   </div>
 
-  FormErrors.PropTypes = {
+  FormErrors.propTypes = {
     formErrors: PropTypes.object 
   }
 
