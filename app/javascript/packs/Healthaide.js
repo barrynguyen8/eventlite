@@ -8,6 +8,8 @@ import FormErrors from './FormErrors'
 
 import validations from '../validations'
 
+import PropTypes from 'prop-types'
+
 
 class Healthaide extends React.Component {
   constructor(props) {
@@ -111,6 +113,10 @@ class Healthaide extends React.Component {
       </div>
     )
   }
+}
+
+Healthaide.propTypes = {
+  events: PropTypes.array.isRequired
 }
 
 document.addEventListener('DOMContentLoaded', () => {
